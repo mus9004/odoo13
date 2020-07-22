@@ -9,7 +9,7 @@
                     <sheet>
                         <group>
                             <field name="name"/>
-                            <field name="description"/>
+                            <!--<field name="description"/>-->
                         </group>
                         <notebook>
                             <page string="Description">
@@ -64,7 +64,7 @@
         <!-- Full id location:
              action="openacademy.course_list_action"
              It is not required when it is the same module -->
-             
+
         <!-- session form view -->
         <record model="ir.ui.view" id="session_form_view">
             <field name="name">session.form</field>
@@ -91,6 +91,7 @@
 
         <menuitem id="session_menu" name="Sessions"
                   parent="openacademy_menu"
-                  action="session_list_action"/>             
+                  action="session_list_action"/>    
+                 
 
 </odoo>
