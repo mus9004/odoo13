@@ -237,12 +237,7 @@
             </field>
         </record>
 
-        <act_window id="launch_session_wizard"
-                    name="Add Attendees"
-                    binding_model="openacademy.session"
-                    res_model="openacademy.wizard"
-                    view_mode="form"
-                    target="new"/>                
+               
 
 
 </odoo>
